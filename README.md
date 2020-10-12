@@ -29,9 +29,9 @@
 
 #### -Denver
 #
-#
 
 ![stacked_launch_outcomes](https://github.com/charlieburd/election_analysis/blob/main/ect/image%20(12).png)
+#
 
 
 ## Election-Audit Summary:
