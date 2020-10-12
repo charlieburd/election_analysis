@@ -28,7 +28,8 @@
 ### **County With Largest Voter Turnout**
 
 #### -Denver
-
+#
+#
 
 ![stacked_launch_outcomes](https://github.com/charlieburd/election_analysis/blob/main/ect/image%20(12).png)
 
@@ -39,6 +40,6 @@
 
 #### This script can be used for each election here after. You will either need to edit the CSV. with the currect election data, or link the script to pull from a new CSV. Two changes would be to:
 
-#### 1. Change candidate vote total to be displayed as a 'x' out of 'total votes. For example: _Charles Casper Stockham: 23.0% (85,213/369,711)_ The code line should be changed to `code(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,}/{total_votes:,})\n")`
+#### 1. Change candidate vote total to be displayed as a 'x' out of 'total votes. For example: _Charles Casper Stockham: 23.0% (85,213/369,711)_ The code line should be changed to `f"{candidate_name}: {vote_percentage:.1f}% ({votes:,}/{total_votes:,})\n"`
 
-#### 2. Add an extra decimal to the pecent of votes reporting. For example: _Charles Casper Stockham: 23.03%_ The code line should be changed to `code({vote_percentage:.2f}%`
+#### 2. Add an extra decimal to the pecent of votes reporting. For example: _Charles Casper Stockham: 23.03%_ The code line should be changed to `{vote_percentage:.2f}%`
